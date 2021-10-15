@@ -60,7 +60,7 @@ fn default_database_config() -> DatabaseConfig {
         db_name: String::from("test"),
         max_pool_size: 100,
         min_pool_size: 10,
-        mongouri: String::from("mongodb://root:example@localhost:27017")
+        mongouri: String::from("mongodb://root:example@localhost:27017"),
     }
 }
 
